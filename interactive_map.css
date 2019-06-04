@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+.map_container {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	background-image: url(../images/template/map.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding: 0px;
+	float: none;
+	height: 428px;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	position: relative;
+	visibility: visible;
+}
+
+.map_contianer a, a:visited { color: #AA0000; margin: 0px 10px 0px 0px; }
+.map_container a.dot {
+	display: block;
+	background-image: url(../images/template/map-marker.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: pointer;
+	position: absolute;
+	height: 18px;
+	width: 15px;
+}
+.map_contianer a.dot.selected {
+	background-position: 0px -18px;
+}
+
+.map_container a.dot:hover {
+	background-position: 0px -18px;
+}
+.city_detail_container {
+	display: none;
+}
+
+.map_container .form_month {
+	position: absolute;
+	left: 602px;
+	top: 393px;
+}
+
+.map_container .detail_container {
+	position: absolute;
+	height: 253px;
+	width: 187px;
+	left: 572px;
+	top: 127px;
+	display: block;
+	clear: both;
+}
+
+.map_container .city_detail {
+	position: absolute;
+	top: 0px;
+	width: 130px;
+	border-left: 1px solid #a9b5c8;
+	border-top: 1px solid #a9b5c8;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-transition: all;
+	-moz-transition: all;
+	-ms-transition: all;
+	-o-transition: all;
+	transition: all;
+	float: left;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 12px;
+	display: block;
+}
+
+.map_container .clear_both { clear: both; line-height: 1px; }
+
+.map_container .city_info h2 {
+	font-size: 18px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.city_info h3 {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #FFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 12px;
+	margin-left: 0px;
+}
+.city_info p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 12px;
+	margin-left: 0px;
+}
+
+.city_photo {
+	float: left;
+	margin: 0px 15px 0px 0px;
+	border-radius: 8px;
+	box-shadow: 0px 5px 3px #4e5d74;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #fff;
+	border-right-color: #fff;
+	border-bottom-color: #fff;
+	border-left-color: #fff;	
+}
+
+
+.city_info {
+	float: left;
+	width: 130px;
+}
+
